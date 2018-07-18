@@ -1,7 +1,9 @@
 ﻿
-// @import "_misc/font-awesome";
+
 @import "_misc/normalize";
 @import "_misc/adjustment";
-
+@import "_misc/custom";
 
 @import "sections/header";
+@import "sections/sidebar";
+@import "sections/page-content";

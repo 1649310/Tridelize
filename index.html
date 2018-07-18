@@ -5,7 +5,8 @@
     <title>Dashboard</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="css/newdesign/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -34,7 +35,7 @@
                     </div>
                 </div>
                 <div class="header__right">
-                    <div class="currency">
+                    <div class="total">
                         <ul class="currency">
                             <li class="currency__item">
                                 BTC
@@ -65,58 +66,69 @@
                 <nav class="nav">
                     <ul class="nav__item">
                         <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                Dashboard
+                            <a href="#" class="nav__link nav__link-active">
+                                <img class="nav__icon" src="img/sidebar/ic_dashboard.svg" />
+                                <span class="nav__text">Dashboard</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Tradelize.score
+                                <img class="nav__icon" src="img/sidebar/ic_tradelize_score.svg" />
+                                <span class="nav__text">Tradelize.score</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                History
+                                <img class="nav__icon" src="img/sidebar/ic_profile.svg" />
+                                <span class="nav__text">Profile</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Statistics
+                                <img class="nav__icon" src="img/sidebar/ic_history.svg" />
+                                <span class="nav__text">History</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Auto
+                                <img class="nav__icon" src="img/sidebar/ic_statistics.svg" />
+                                <span class="nav__text">Statistics</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Margin Trade
+                                <img class="nav__icon" src="img/sidebar/ic_manual_auto.svg" />
+                                <span class="nav__text">Auto</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Risk Management
+                                <img class="nav__icon" src="img/sidebar/ic_margin_trade.svg" />
+                                <span class="nav__text">Margin Trade</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Balance
+                                <img class="nav__icon" src="img/sidebar/ic_risk_management.svg" />
+                                <span class="nav__text">Risk Management</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Referal link
+                                <img class="nav__icon" src="img/sidebar/ic_balance.svg" />
+                                <span class="nav__text">Balance</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Trade (underdevelopment)
+                                <img class="nav__icon" src="img/sidebar/ic_referral_system.svg" />
+                                <span class="nav__text">Referal link</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">
-                                Download terminal
+                                <img class="nav__icon" src="img/sidebar/ic_trade.svg" />
+                                <span class="nav__text">Trade</span>
                             </a>
                         </li>
                     </ul>
@@ -124,8 +136,121 @@
             </aside>
 
             <!-- page-content -->
-            <main class="page-content">
+            <main class="page__content">
+                <div class="container">
+                    <div class="dashboard__top">
+                        <div class="balance">
+                            <h2 class="title title-balance">Balance</h2>
+                            <div class="balance__chart">
+                                <div class="balance__head">usd</div>
+                                <div class="title">$733.16032</div>
+                            </div>
+                            <div class="balance__desc">
+                                <div class="balance__eth">
+                                    <div class="balance__head">eth</div>
+                                    <div class="title">60.800</div>
+                                    <div class="balance__text">+41</div>
+                                </div>
+                                <div class="balance__btc">
+                                    <div class="balance__head">btc</div>
+                                    <div class="title">27.600</div>
+                                    <div class="balance__text">+121</div>
+                                </div>
+                                <div class="balance__usd">
+                                    <div class="balance__head">usd</div>
+                                    <div class="title">18.908</div>
+                                    <div class="balance__text">+200</div>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="#" class="wallet">Wallet</a>
+                            </div>
+                        </div>
+                        <div class="portfolio">
+                            <div class="portfolio__top">
+                                <div class="portfolio__title">
+                                    <h2 class="title">Portfolio</h2>
+                                </div>
+                                <div class="portfolio__nav">
+                                    <ul class="portfolio__list">
+                                        <li class="portfolio__item">
+                                            <a href="#" class="portfolio__link portfolio__link-active">
+                                                All time
+                                            </a>
+                                        </li>
+                                        <li class="portfolio__item">
+                                            <a href="#" class="portfolio__link">
+                                                Today
+                                            </a>
+                                        </li>
+                                        <li class="portfolio__item">
+                                            <a href="#" class="portfolio__link">
+                                                This week
+                                            </a>
+                                        </li>
+                                        <li class="portfolio__item">
+                                            <a href="#" class="portfolio__link">
+                                             This month
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio__chart">
 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard__center">
+
+                        <div class="bitrex">
+                            <div class="bitrex__top">
+                                <div class="bitrex__title">
+                                    <h2 class="title">Bitrex</h2>
+                                    <div class="dashboard__center-text">+47%</div>
+                                </div>
+                                <div class="bitrex__chart">
+                                </div>
+                                <div class="bitrex__pic"></div>
+                            </div>
+                        </div>
+
+                        <div class="binance">
+                            <div class="binance__top">
+                                <div class="binance__title">
+                                    <h2 class="title">Binance</h2>
+                                    <div class="dashboard__center-text">+23%</div>
+                                </div>
+                                <div class="binance__chart">
+                                </div>
+                                <div class="binance__pic"></div>
+                            </div>
+                        </div>
+
+                        <div class="kraken">
+                            <div class="kraken__top">
+                                <div class="kraken__title">
+                                    <h2 class="title">Kraken</h2>
+                                    <div class="dashboard__center-text">+28%</div>
+                                </div>
+                                <div class="kraken__chart">
+                                </div>
+                                <div class="kraken__pic"></div>
+                            </div>
+                        </div>
+                     </div>
+
+                    
+                    <div class="dashboard__bottom">
+                        <div class="earnings">
+                            <h2 class="title">Earnings</h2>
+                        </div>
+                        <div class="traders">
+                            <h2 class="title">Traders</h2>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
     </div>

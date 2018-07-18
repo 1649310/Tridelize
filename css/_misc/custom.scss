@@ -1,0 +1,26 @@
+﻿%clearfix {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin inlineblock($valigh: top) {
+    display: inline-block;
+    vertical-align: $valigh;
+}
+
+.title {
+    font: 500 20px 'Roboto';
+    color: #1a173b;
+    line-height: 28px;
+}
+.button {
+    font: 500 14px 'Roboto';
+    color: #fff;
+    width: 100%;
+    background-image: linear-gradient(-269deg, #52c2f4 0%,#6af3d8 100%);
+    text-align: center;
+    border-radius: 100px;
+}

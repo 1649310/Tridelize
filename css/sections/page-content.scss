@@ -1,0 +1,84 @@
+﻿
+
+.dashboard__top, .dashboard__center, .dashboard__bottom {
+    display: flex;
+    margin-bottom: 24px;
+}
+.balance, .earnings {
+    background: #fff;
+    padding: 22px 24px 24px;
+    width: 318px;
+    margin-right: 24px;
+    box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
+    border-radius: 2px;
+}
+.title-balance {
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.balance__chart {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.balance__head {
+    font: 400 13px 'Roboto';
+    color: #8a96a0;
+    text-transform: uppercase;
+}
+
+.balance__desc {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.balance__text {
+    font: 500 14px 'Roboto';
+    color: #6af3d8;
+   
+}
+.wallet {
+    color: #fff;
+    padding: 14px 0 14px 0;
+    display: inline-block;
+    line-height: 24px;
+    width: 100%;
+}
+
+.portfolio, .traders {
+    background: #fff;
+    width: 1002px;
+    padding: 22px 24px 24px;
+    box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
+    border-radius: 2px;
+    margin-right: 24px;
+}
+
+.portfolio__top {
+    display: flex;
+
+}
+.portfolio__list {
+    display: flex;
+
+}
+.portfolio__link {
+    padding-right: 40px;
+    color: #8a96a0;
+}
+.portfolio__link-active {
+    font: 700 14px 'Roboto';
+    color: #52c2f4;
+}
+
+.bitrex, .binance, .kraken {
+    width: 432px;
+    background: #fff;
+    padding: 22px 24px 24px;
+    box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
+    border-radius: 2px;
+    margin-right: 24px;
+}

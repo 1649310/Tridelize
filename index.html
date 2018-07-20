@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-    <link href="css/newdesign/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -135,7 +135,6 @@
                 </nav>
             </aside>
 
-            <!-- page-content -->
             <main class="page__content">
                 <div class="container">
 
@@ -145,7 +144,7 @@
                             <div class="dashboard__head">usd</div>
                            <div class="title">$733.16032</div>
                         </div>
-                        <div class="balance__desc">
+                        <div class="dashboard__desc">
                             <div class="balance__eth">
                                 <div class="dashboard__head">eth</div>
                                 <div class="title">60.800</div>
@@ -211,9 +210,10 @@
                             <div class="bitrex__chart">
                             </div>
                             <div class="bitrex__pic">
-                                <img class="dashboard__pic" src="img/newdesign/content/options.svg" />
+                                <img class="dashboard__pic" src="img/content/options.svg" />
                             </div>
                         </div>
+                        <div class="dashboard__panel">NEO +2,211: ADA + 3.80</div>
                     </div>
 
                     <div class="binance">
@@ -225,8 +225,9 @@
                             <div class="binance__chart">
                             </div>
                             <div class="binance__pic">
-                                <img class="dashboard__pic" src="img/newdesign/content/options.svg"/>
+                                <img class="dashboard__pic" src="img/content/options.svg" />
                             </div>
+                            <div class="dashboard__panel">DOGE +41,423: ZEC + 417.10</div>
                         </div>
                     </div>
 
@@ -239,8 +240,9 @@
                             <div class="kraken__chart">
                             </div>
                             <div class="kraken__pic">
-                                <img class="dashboard__pic" src="img/newdesign/content/options.svg" />
+                                <img class="dashboard__pic" src="img/content/options.svg" />
                             </div>
+                            <div class="dashboard__panel">XRP +15,212: XMR + 55.80</div>
                         </div>
                     </div>
                 
@@ -257,9 +259,261 @@
                             <span class="week">Tue</span>
                             <span class="week">Wed</span>
                         </div>
+                        <div class="dashboard__desc dashboard__desc-earnings">
+                            <div class="earnings__week">
+                                <div class="dashboard__head dashboard__head-earnings">Week</div>
+                                <div class="title">1.280</div>
+                                <div class="dashboard__text">+41</div>
+                            </div>
+                            <div class="earnings__month">
+                                <div class="dashboard__head dashboard__head-earnings">Mouth</div>
+                                <div class="title">20.390</div>
+                                <div class="dashboard__text">+121</div>
+                            </div>
+                            <div class="earnings__year">
+                                <div class="dashboard__head dashboard__head-earnings">Year</div>
+                                <div class="title">60.574</div>
+                                <div class="dashboard__text">+200</div>
+                            </div>
+                        </div>
                     </div>
+
                     <div class="traders">
-                        <h2 class="title">Traders</h2>
+                        <div class="traders__title">
+                            <h2 class="title">Traders</h2>
+                        </div>
+                        <!-- <table class="table">
+         <thead>
+             <tr>
+                 <th></th>
+                 <th></th>
+                 <th>Allocated,%</th>
+                 <th>Return,%</th>
+                 <th>Strategy name</th>
+                 <th></th>
+                 <th></th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (1).jpg" />
+                 </th>
+                 <th>Samantha</th>
+                 <th>40</th>
+                 <th class="dashboard__text">+84.35</th>
+                 <th>Holding ETH</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (2).jpg"  />
+                 </th>
+                 <th>Tony</th>
+                 <th>20</th>
+                 <th class="dashboard__text">+79,43</th>
+                 <th>Channel Trading</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             </tr>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (3).jpg"/>
+                 </th>
+                 <th>Damien</th>
+                 <th>12</th>
+                 <th class="dashboard__text">+75,12</th>
+                 <th>Hodling BTC</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             </tr>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (4).jpg" />
+                 </th>
+                 <th>Scalping</th>
+                 <th>12</th>
+                 <th class="dashboard__text">+70,36</th>
+                 <th>Holding ETH</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             </tr>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (5).jpg" />
+                 </th>
+                 <th>Damien</th>
+                 <th>10</th>
+                 <th class="dashboard__text">+31,47</th>
+                 <th>Holding BTC</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             </tr>
+             <tr>
+                 <th class="user__avatar">
+                     <img class="user__username" src="img/newdesign/content/table-users/52-52 (6).jpg" />
+                 </th>
+                 <th>Simon</th>
+                 <th>7</th>
+                 <th class="dashboard__text">+12,95</th>
+                 <th>Holding BTC</th>
+                 <th></th>
+                 <th>
+                     <div class="button">
+                         <i class="fa fa-plus-circle fa-2x"></i>
+                         <a href="#" class="follow">Follow</a>
+                     </div>
+                 </th>
+             </tr>
+             </tr>
+         </tbody>
+     </table>
+        -->
+                        <div class="table">
+                            <ul class="table__head">
+                                <li class="head__allocated">Allocated, %</li>
+                                <li class="head__return">Return, %</li>
+                                <li class="header__strategy">Strategy name</li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (1).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Samanta</li>
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <div class="button button__table">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        <a href="#" class="follow">Follow</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (2).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Tony</li>
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <div class="button button__table">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        <a href="#" class="follow">Follow</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (3).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Damien</liclass="table__name">
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <div class="button button__table">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        <a href="#" class="follow">Follow</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (4).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Scalping</li>
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <div class="button button__table">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        <a href="#" class="follow">Follow</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (5).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Damien</li>
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <div class="button button__table">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        <a href="#" class="follow">Follow</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="table__body">
+                                <li class="table__avatar">
+                                    <div class="table__avatar-user">
+                                        <img class="user__pic" src="img/content/table-users/52-52 (6).jpg">
+                                    </div>
+                                </li>
+                                <li class="table__name">Simon</li>
+                                <li class="table__allocated">20</li>
+                                <li class="table__return">+71,35</li>
+                                <li class="table__strategy">Hodling ETH</li>
+                                <li class="table__chart"></li>
+                                <li class="table__btn">
+                                    <a href="#" class="button button__follow">
+                                        <i class="fa fa-plus-circle fa-2x"></i>
+                                        Follow
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     
                 </div>

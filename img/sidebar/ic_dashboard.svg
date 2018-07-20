@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="11px" viewBox="0 0 13 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00_00_00_Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-25.000000, -98.000000)">
+        <g id="ic_dashboard" transform="translate(24.000000, 96.000000)">
+            <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+            <polygon id="Shape" fill="#56546E" fill-rule="nonzero" points="6.2 13 6.2 9.11764706 8.8 9.11764706 8.8 13 12.05 13 12.05 7.82352941 14 7.82352941 7.5 2 1 7.82352941 2.95 7.82352941 2.95 13"></polygon>
+        </g>
+    </g>
+</svg>

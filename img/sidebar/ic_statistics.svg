@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_statistics</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00_00_00_Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-25.000000, -337.000000)">
+        <g id="ic_statistics" transform="translate(24.000000, 336.000000)">
+            <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+            <path d="M7.33333333,1.33333333 L7.33333333,14.6666667 C3.95333333,14.3333333 1.33333333,11.4733333 1.33333333,8 C1.33333333,4.52666667 3.95333333,1.66666667 7.33333333,1.33333333 Z M8.68666667,1.33333333 L8.68666667,7.32666667 L14.6666667,7.32666667 C14.3533333,4.16666667 11.84,1.64666667 8.68666667,1.33333333 Z M8.68666667,8.67333333 L8.68666667,14.6666667 C11.8466667,14.3533333 14.3533333,11.8333333 14.6666667,8.67333333 L8.68666667,8.67333333 Z" id="Shape" fill="#56546E" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

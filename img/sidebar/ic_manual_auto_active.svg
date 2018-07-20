@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_manual_auto_active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00_00_00_Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-68.000000, -385.000000)">
+        <g id="ic_manual_auto_active" transform="translate(64.000000, 384.000000)">
+            <polygon id="Shape" points="0 0 16 0 16 16 0 16"></polygon>
+            <polygon id="Shape" fill="#1A173B" fill-rule="nonzero" points="4.66666667 1.33333333 4.66666667 8.66666667 6.66666667 8.66666667 6.66666667 14.6666667 11.3333333 6.66666667 8.66666667 6.66666667 11.3333333 1.33333333"></polygon>
+        </g>
+    </g>
+</svg>

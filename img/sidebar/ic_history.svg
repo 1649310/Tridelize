@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_history</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="00_00_00_Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-25.000000, -289.000000)">
+        <g id="ic_history" transform="translate(24.000000, 288.000000)">
+            <polygon id="a" points="0 0 16 0 16 16 0 16"></polygon>
+            <path d="M8,1.33333333 C4.33333333,1.33333333 1.33333333,4.33333333 1.33333333,8 C1.33333333,11.6666667 4.33333333,14.6666667 8,14.6666667 C11.6666667,14.6666667 14.6666667,11.6666667 14.6666667,8 C14.6666667,4.33333333 11.6666667,1.33333333 8,1.33333333 Z M10.8,10.8 L7.33333333,8.66666667 L7.33333333,4.66666667 L8.33333333,4.66666667 L8.33333333,8.13333333 L11.3333333,9.93333333 L10.8,10.8 Z" id="Shape" fill="#56546E" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

@@ -7,10 +7,12 @@
     margin-bottom: 24px;
     box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
     border-radius: 2px;
+    @include inlineblock(middle);
 }
 .title-balance {
     text-align: center;
     margin-bottom: 74px;
+    line-height: 28px;
 }
 
 .balance__chart {
@@ -22,6 +24,7 @@
     font: 400 13px 'Roboto';
     color: #8a96a0;
     text-transform: uppercase;
+    line-height: 24px;
 }
 
 .dashboard__desc {
@@ -30,14 +33,18 @@
     justify-content: space-around;
     margin-bottom: 24px;
 }
-
+.dashboard__desc-earnings {
+    margin-bottom: 8px;
+}
 .dashboard__text {
     font: 500 14px 'Roboto';
     color: #6af3d8;
+    line-height: 24px;
 }
 
-.dashboard__text-binance {
-    font-size: 20px; 
+.tradelize__text {
+    color: #6af3d8;
+    font: 500 20px 'Roboto';
     line-height: 28px;
 }
 .wallet {
@@ -56,175 +63,182 @@
     border-radius: 2px;
     margin-right: 24px;
     margin-bottom: 24px;
+    @include inlineblock(top);
 }
 
-.portfolio__top {
-    display: flex;
+    .portfolio__top {
+        display: flex;
+    }
 
-}
-.portfolio__title {
-    margin-right: auto;
-}
-.portfolio__list {
-    display: flex;
+    .portfolio__title {
+        margin-right: auto;
+    }
 
-}
-.portfolio__link {
-    margin-right: 40px;
-    color: #8a96a0;
-}
-.portfolio__link-active {
-    font: 700 14px 'Roboto';
-    color: #52c2f4;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #52c2f4;
-}
+    .portfolio__list {
+        display: flex;
+    }
 
-.bitrex, .binance, .kraken {
-    width: 432px;
-    background: #fff;
-    padding: 22px 24px 24px;
-    box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
-    border-radius: 2px;
-    margin-right: 24px;
-    margin-bottom: 24px;
-}
+    .portfolio__link {
+        margin-right: 40px;
+        color: #8a96a0;
+    }
 
-.dashboard__center-text {
-    font: 500 20px 'Roboto';
-    color: #6af3d8;
-    line-height: 28px;
-}
+    .portfolio__link-active {
+        font: 700 14px 'Roboto';
+        color: #52c2f4;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #52c2f4;
+    }
+
+    .bitrex, .binance, .kraken {
+        width: 432px;
+        background: #fff;
+        padding: 22px 24px 24px;
+        box-shadow: 0 16px 32px 0 rgba(144,164,183,0.20);
+        border-radius: 2px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+        @include inlineblock(top);
+    }
+
+    .dashboard__center-text {
+        font: 500 20px 'Roboto';
+        color: #6af3d8;
+        line-height: 28px;
+    }
+
 .dashboard__panel {
     font: 400 14px 'Roboto';
     color: #8a96a0;
     line-height: 24px;
-    margin-bottom: 9px;
-}
-.earnings__top {
-    text-align: center;
-    margin-bottom: 24px;
+    padding-bottom: 9px;
+    border-bottom: 3px solid #f2f3f7;
 }
 
-.earnings__top-count {
-    font: 400 40px 'Roboto';
-    line-height: 40px;
-    text-align: center;
-    color: #1a173b;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-}
-
-.earnings__center {
-    display: flex;
-    justify-content: space-around;
-    font: 400 13px 'Roboto';
-    color: #bbc6d0;
-    margin-bottom: 202px;
-}
-.dashboard__head-earnings {
-    text-transform: none;
-}
-
-.traders__title {
-    margin-bottom: 30px;
-}
-.table__head {
-    display: flex;
-    font: 400 13px 'Roboto';
-    color: #bbc6d0;
-    line-height: 24px;
-}
-
-.head__allocated {
-    margin-left: 243px;
-    margin-right: 16px;
-    width: 90px;
-}
-
-.head__return {
-    margin-right: 78px;
-}
-.table__body {
-    display: flex;
-    height: 64px;
-    border-bottom: 1px solid #e7eaec;
-
-    &:last-child {
-        border-bottom: none;
+    .earnings__top {
+        text-align: center;
+        margin-bottom: 24px;
     }
-}
 
-.table__avatar {
-    padding: 12px 16px 12px 0;
-}
-
-.table__avatar-user {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    overflow: hidden;
-
-    img {
-        max-height: 100%;
-        max-width: 100%;
+    .earnings__top-count {
+        font: 400 40px 'Roboto';
+        line-height: 40px;
+        text-align: center;
+        color: #1a173b;
+        margin-bottom: 40px;
+        text-transform: uppercase;
     }
-}
 
-.table__name {
-    width: 187px;
-    text-align: left;
-    padding: 20px 0 20px;
-}
+    .earnings__center {
+        display: flex;
+        justify-content: space-around;
+        font: 400 13px 'Roboto';
+        color: #bbc6d0;
+        margin-bottom: 202px;
+        line-height: 24px;
+    }
 
-.table__allocated {
-    width: 106px;
-    text-align: left;
-    padding: 20px 0 20px;
-}
+    .dashboard__head-earnings {
+        text-transform: none;
+    }
 
-.table__return {
-    font: 500 14px 'Roboto';
-    line-height: 24px;
-    color: #6af3d8;
-    text-align: left;
-    padding: 20px 0 20px;
-    width: 133px;
-}
+    .traders__title {
+        margin-bottom: 30px;
+    }
 
-.table__strategy {
-    width: 168px;
-    text-align: left;
-    padding: 20px 0 20px;
-}
+    .table__head {
+        display: flex;
+        font: 400 13px 'Roboto';
+        color: #bbc6d0;
+        line-height: 24px;
+    }
 
-.table__chart {
-    width: 190px;
-    padding: 17px 0 16px;
-}
+    .head__allocated {
+        margin-left: 243px;
+        margin-right: 16px;
+        width: 90px;
+    }
 
-.table__btn {
-    width: 114px;
-    padding: 16px 0;
-}
+    .head__return {
+        margin-right: 78px;
+    }
 
-.button__table {
-    display: flex;
-}
-.btn__icon {
-    width: 20px;
-    height:20px;
-    padding: 6px;
+    .table__body {
+        display: flex;
+        height: 64px;
+        border-bottom: 1px solid #e7eaec;
 
-}
+        &:last-child {
+            border-bottom: none;
+        }
+    }
 
-.fa-2x {
+    .table__avatar {
+        padding: 12px 16px 12px 0;
+    }
+
+    .table__name {
+        width: 187px;
+        text-align: left;
+        padding: 20px 0 20px;
+    }
+
+    .table__allocated {
+        width: 106px;
+        text-align: left;
+        padding: 20px 0 20px;
+    }
+
+    .table__return {
+        font: 500 14px 'Roboto';
+        line-height: 24px;
+        color: #6af3d8;
+        text-align: left;
+        padding: 20px 0 20px;
+        width: 133px;
+    }
+
+    .table__strategy {
+        width: 168px;
+        text-align: left;
+        padding: 20px 0 20px;
+    }
+
+    .table__chart {
+        width: 190px;
+        padding: 17px 0 16px;
+    }
+
+    .table__btn {
+        width: 114px;
+        margin: 16px 0;
+    }
+
+    .button__table {
+        display: flex;
+    }
+
+    .btn__icon {
+        width: 20px;
+        height: 20px;
+        padding: 6px;
+    }
+
+.fa-plus-circle {
     opacity: 0.6;
     padding-right: 22px;
-}
-.button__follow {
-    color: #fff;
-    padding: 4px 24px 4px 0px;
-    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 2px;
 }
 
+    .button__follow {
+        color: #fff;
+        position: relative;
+        display: inline-block;
+        line-height: 24px;
+        padding: 4px 24px 4px 48px;
+
+    }
+
+  

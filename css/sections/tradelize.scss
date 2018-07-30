@@ -17,6 +17,26 @@
     padding-right: 40px;
 }
 
+
+.gradient {
+    background: linear-gradient(-269deg, #52c2f4 0%, #6af3d8 100%);
+    border-radius: 100px;
+    width: 98px;
+    height: 36px;
+}
+
+.traders__link {
+    padding: 6px 16px 6px 24px;
+    display: flex;
+    width: 94px;
+    background: #fff;
+    position: absolute;
+    height: 32px;
+    left: 172px;
+    top: 24px;
+    border-radius: 100px;
+}
+
 .traders__link {
     display: flex;
     border: 2px solid;

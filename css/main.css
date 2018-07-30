@@ -821,6 +821,27 @@ h1, h2, h3, h4, h5, h6 {
 .top__title {
   padding-right: 40px; }
 
+.gradient {
+  background: -webkit-linear-gradient(359deg, #52c2f4 0%, #6af3d8 100%);
+  background: -o-linear-gradient(359deg, #52c2f4 0%, #6af3d8 100%);
+  background: linear-gradient(-269deg, #52c2f4 0%, #6af3d8 100%);
+  border-radius: 100px;
+  width: 98px;
+  height: 36px; }
+
+.traders__link {
+  padding: 6px 16px 6px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 94px;
+  background: #fff;
+  position: absolute;
+  height: 32px;
+  left: 172px;
+  top: 24px;
+  border-radius: 100px; }
+
 .traders__link {
   display: -webkit-box;
   display: -ms-flexbox;
